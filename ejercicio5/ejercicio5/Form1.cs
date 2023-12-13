@@ -44,7 +44,7 @@ namespace ejercicio5
             try {
                 num1 = int.Parse(tNum1.Text); // Asigno a la variable "num1" el valor introducido en el TextBox "tNum1" habiéndolo convertido previamente a tipo entero
                 num2 = int.Parse(tNum2.Text); // Asigno a la variable "num2" el valor introducido en el TextBox "tNum2" habiéndolo convertido previamente a tipo entero
-                resultado = num1 + num2; // Asigno a la variable "resultado" el valor obtenido de la suma de las variables "num1" y "num2"
+                resultado = num1 - num2; // Asigno a la variable "resultado" el valor obtenido de la suma de las variables "num1" y "num2"
 
                 tResultado.Text = resultado.ToString(); // En el TextBox "tResultado" inserto el valor de la variable resultado habiéndolo convertido previamente a tipo cadena de texto
             }
@@ -59,7 +59,7 @@ namespace ejercicio5
             int num1, num2, resultado; // Inicializo la variables
             num1 = int.Parse(tNum1.Text); // Asigno a la variable "num1" el valor introducido en el TextBox "tNum1" habiéndolo convertido previamente a tipo entero
             num2 = int.Parse(tNum2.Text); // Asigno a la variable "num2" el valor introducido en el TextBox "tNum2" habiéndolo convertido previamente a tipo entero
-            resultado = num1 - num2; // Asigno a la variable "resultado" el valor obtenido de la resta de las variables "num1" y "num2"
+            resultado = num1 + num2; // Asigno a la variable "resultado" el valor obtenido de la resta de las variables "num1" y "num2"
 
             tResultado.Text = resultado.ToString(); // En el TextBox "tResultado" inserto el valor de la variable "resultado" habiéndolo convertido previamente a tipo cadena de texto
         }
